@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "invoice_num": "001",
+        "name":"Kenny",
+        "phone":"123456"
+    },
+    {
+        "id":"2",
+        "invoice_num": "002",
+        "name":"Alexa",
+        "phone":"1234567"
+    },
+    {
+        "id":"3",
+        "invoice_num": "003",
+        "name":"Melissa",
+        "phone":"12345678"
+    }
+]
