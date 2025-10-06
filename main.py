@@ -39,7 +39,7 @@ async def add_invoice(new_invoice_num : InvoiceModel):
     return post_invoice_router(new_invoice_num)
 
 @app.put("/invoice/{invoice_num}")
-async def update_invoice(invoice_num:str, new_invoice_num:BaseModel):
+async def update_invoice(invoice_num:str, new_invoice_num:InvoiceModel):
     return put_invoice_router(invoice_num, new_invoice_num)
 
 @app.delete("/invoice/{invoice_num}")

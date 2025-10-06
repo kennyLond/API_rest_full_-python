@@ -14,6 +14,6 @@ def delete_invoice_router(invoice_number):
 
             return {
                 "success" : True,
-                "message" : "delete contact"
+                "message" : "delete invoice"
             }
-    raise HTTPException(status_code=404,detail="contact not found")
+    raise HTTPException(status_code=404,detail="invoice not found")
